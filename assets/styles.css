@@ -131,7 +131,7 @@ button:active {
 .row {
 width: 100%;
 max-width: 1200px;
-margin: 0 none;
+margin: 0 auto;
 }
 /* 
 
@@ -145,5 +145,6 @@ HIGHLIGHT
 
 .highlight {
   padding: 0 23px;
+  display: flex;
   width: calc(100% / 3);
 }
